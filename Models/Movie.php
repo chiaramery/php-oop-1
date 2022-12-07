@@ -27,14 +27,4 @@ class Movie
         $this->year = $year;
         $this->mainCharacter = $maiCharacter;
     }
-
-    /**
-     * Description 
-     * @returns {String} Stampa tutti i dati dei movies
-     * @author Chiara Meringola
-     **/
-    public function print()
-    {
-        return "Title: $this->title, Director: $this->director, Year of release: $this->year, Main Character: $this->mainCharacter";
-    }
 }
